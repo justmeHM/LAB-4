@@ -24,3 +24,6 @@ Contributors
 
 - Harrison Mwewa
   202151702
+
+  -Sydney Mulando
+  2021445895
