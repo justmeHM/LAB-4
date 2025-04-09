@@ -1,29 +1,24 @@
-CSC 4035 Lab 3: CSS3 & Responsive Web Design
+CSC 4035 Lab 4: Responsive Web Design
 
-Overview
-A multi-page responsive website demonstrating CSS3 techniques, including Flexbox, Grid, media queries, and animations.
+Pages:
 
-Pages
-Home (`index.html`)– Uses Flexbox for layout.
-Services (`services.html`) – Displays service cards with CSS Grid.
-Contact (`contact.html`) – Responsive form with validation and animations.
+- Home (index.html): Flexbox layout.
+- Services (services.html): CSS Grid for service cards.
+- Contact (contact.html): Responsive form with validation.
 
-Features
+Core Features
 
-Flexbox navigation and layout
-CSS Grid for service cards
-Responsive design with media queries
-Animations and hover effects
+1. Theme Toggle: Light/dark mode switch on Home page.
+2. Form Validation: Prevents empty submissions on Contact page.
+3. Fetch API: Display users from an API on Home page.
+4. FAQ: Interactive question/answer toggle.
 
 How to Run
 
-1. Clone/download the repository.
+1. Clone/download the repo.
 2. Open `index.html` in a browser.
 
 Contributors
 
-- Harrison Mwewa
-  202151702
-
-  -Sydney Mulando
-  2021445895
+- Harrison Mwewa (202151702)
+- Sydney Mulando (2021445895)
