@@ -18,26 +18,31 @@
     </header>
 
     <section class="contact-form">
+      <button id="themeToggle">Switch Theme</button>
       <h2>Contact Us</h2>
-      <form>
-        <label for="name">Name:</label>
-        <input type="text" id="name" required />
+      <form id="contactForm">
+        <label for="nameInput">Name:</label>
+        <input type="text" id="nameInput" required />
 
-        <label for="email">Email:</label>
-        <input type="email" id="email" required />
+        <label for="emailInput">Email:</label>
+        <input type="email" id="emailInput" required />
 
-        <label for="subject">Subject:</label>
-        <input type="text" id="subject" required />
+        <label for="subjectInput">Subject:</label>
+        <input type="text" id="subjectInput" required />
 
-        <label for="message">Message:</label>
-        <textarea id="message" required></textarea>
+        <label for="messageInput">Message:</label>
+        <textarea id="messageInput" required></textarea>
 
         <button type="submit">Send</button>
       </form>
+
+      <p id="response"></p>
     </section>
 
     <footer>
-      <p>&copy; 2025 Lab 3</p>
+      <p>&copy; 2025 Lab 4</p>
     </footer>
+
+    <script src="index.js"></script>
   </body>
 </html>
